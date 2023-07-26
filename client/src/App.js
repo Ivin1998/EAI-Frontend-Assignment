@@ -11,7 +11,7 @@ function App() {
 	const [stockName, setStockName] = useState('');
 	const [date, setDate] = useState('');
 	const [stockData, setStockData] = useState(null);
-	const [resultSet,setResultSet] = useState(0);
+	const [resultSet,setResultSet] = useState({});
 
 	const getStocks = async (e) => {
 		e.preventDefault();
@@ -65,10 +65,10 @@ function App() {
 						</Row>
 					)}
 					</>
-					):(<div><br/>No data found</div>)}
+					):(<div><br></br>No data found for the selected Date</div>)}
 					
 				</div>
-				<div className='col col-md-4'>
+				<div className='col col-md-4'><br/>
 					<Card className="points-card" >
 						<Card.Body>
 							<Card.Title className="card-title">Points to Remember</Card.Title>
