@@ -7,6 +7,8 @@ const axios = require("axios");
 
 const app = express();
 
+const POLYGON_API_KEY=process.env.POLYGON_API_KEY || '';
+
 app.use(function (req, res, next) {
     const allowedOrigins = ['http://localhost:3000'];
     const origin = req.headers.origin;
@@ -28,7 +30,17 @@ app.enable('trust proxy');
 
 app.post('/api/fetchStockData', (req, res) => {
     // YOUR CODE GOES HERE, PLEASE DO NOT EDIT ANYTHING OUTSIDE THIS FUNCTION
-    res.sendStatus(200);
+    let date=req.body.date;
+    let stockName = req.body.stockName;
+    let url=`https://api.polygon.io/v2/aggs/ticker/${stockName}/range/1/day/${date}/${date}?apiKey=${POLYGON_API_KEY}`;
+    axios.get(url)
+    .then(function (response) {
+        res.send(response.data);
+    })
+    .catch(function (error) {
+        console.log(error);
+        res.sendStatus(500);
+    })
 });
 
 const port = process.env.PORT || 5000;
