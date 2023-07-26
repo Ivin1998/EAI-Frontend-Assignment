@@ -49,7 +49,7 @@ The task is to build a webpage to display the trade statistics (Open, High, Low,
 
 1. Imagine this is a real world scenario which thousands of users use to get the historic data of a stock for a particular day, how would this product change in order to improve the UX.
 
-    a) Scalability and Performance.
+    a) Scalability and Performance
     b) User Authentication and Security
     c) Data Visualization
     d) Set up monitoring tools to track application performance and detect potential issues proactively.
