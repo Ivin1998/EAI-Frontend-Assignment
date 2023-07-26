@@ -29,3 +29,18 @@ The task is to build a webpage to display the trade statistics (Open, High, Low,
 ## Optional tasks
 1. Imagine this is a real world scenario which thousands of users use to get the historic data of a stock for a particular day, how would this product change in order to improve the UX.
 2. What new features would you add in this product to increase it's utility for the end user.
+
+## Have Implementated the following updates and features in this developed Stock Analytics Application
+
+1. Added two input boxes to receive the stock symbol and date value from the user.
+2. Implemented a Button to retrieve the values for the provided stock symbol.
+3. Utilized four states to manage the stock name, date, stock data (containing all relevant data for the given stock), and result set (to verify data availability).
+4. Included an informative card outlining important points users should know before using the application to get stock values.
+5. Provided examples of stock symbols for the user's reference.
+6. Implemented input box validations to ensure accurate and appropriate user inputs.
+7. If the user enters a valid stock symbol and date, the application displays the open, close, high, volume, and low data spaciously in the UI.
+8. In cases where there is no data available for a particular date, the application shows an error message stating: "No data found for the selected date."
+9. Enhanced the UI with user-friendly and attractive styles using Bootstrap.
+10. Added the port number and polygon api key value in the env file.
+11. Added Nodemon to Node.js server.
+
