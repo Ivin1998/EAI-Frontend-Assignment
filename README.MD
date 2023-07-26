@@ -47,22 +47,22 @@ The task is to build a webpage to display the trade statistics (Open, High, Low,
 
 ## Optional tasks
 
-1. Imagine this is a real world scenario which thousands of users use to get the historic data of a stock for a particular day, how would this product change in order to improve the UX.
+A) Imagine this is a real world scenario which thousands of users use to get the historic data of a stock for a particular day, how would this product change in order to improve the UX.
 
-    a) Scalability and Performance
-    b) User Authentication and Security
-    c) Data Visualization
-    d) Set up monitoring tools to track application performance and detect potential issues proactively.
-    e) Support and Documentation
-    f) ChatBot support or live chat support
+    1) Scalability and Performance
+    2) User Authentication and Security
+    3) Data Visualization
+    4) Set up monitoring tools to track application performance and detect potential issues proactively.
+    5) Support and Documentation
+    6) ChatBot support or live chat support
 
     By addressing these aspects, the product can deliver a more reliable, efficient, and user-friendly experience to its vast user base, supporting thousands of        users seeking historic stock data on a daily basis.
 
-2. What new features would you add in this product to increase it's utility for the end user.
+B) What new features would you add in this product to increase it's utility for the end user.
 
     To increase the utility of the product for end users, several new features could be added to enhance their experience and provide more valuable insights. Here      are some potential new features:
 
-    a) Enable users to compare the historical performance of multiple stocks side by side on the same chart.
-    b) Allow users to create and manage portfolios, tracking their investments and overall portfolio performance.
-    c) Customizable Dashboard
-    d) Integrate real-time market news and analysis relevant to the user's selected stocks or sectors.
+    1) Enable users to compare the historical performance of multiple stocks side by side on the same chart.
+    2) Allow users to create and manage portfolios, tracking their investments and overall portfolio performance.
+    3) Customizable Dashboard
+    4) Integrate real-time market news and analysis relevant to the user's selected stocks or sectors.
