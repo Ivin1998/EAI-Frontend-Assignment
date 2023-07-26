@@ -11,6 +11,7 @@ function App() {
 	const [stockName, setStockName] = useState('');
 	const [date, setDate] = useState('');
 	const [stockData, setStockData] = useState(null);
+	const [resultSet,setResultSet] = useState(0);
 
 	const getStocks = async (e) => {
 		e.preventDefault();
@@ -21,6 +22,7 @@ function App() {
 		else {
 			setStockData(null);
 		}
+		setResultSet(data.resultsCount);
 	}
 	return (
 		<>
@@ -41,7 +43,9 @@ function App() {
 							style={{ width: '60%', marginBottom: '20px' }} onChange={(e) => setDate(e.target.value)} />
 						<button type="submit" className='btn btn-primary'>Get Stock Insight</button>
 					</form>
-					{stockData && (
+                 	{resultSet ? (
+						<>
+						{stockData && (
 						<Row style={{ marginTop: '25px' }}>
 							<Col xs={6} className="data-point">
 								<strong>Opens:</strong> {stockData.o}
@@ -59,8 +63,10 @@ function App() {
 								<strong>Volume:</strong> {stockData.v}
 							</Col>
 						</Row>
-
 					)}
+					</>
+					):(<div><br/>No data found</div>)}
+					
 				</div>
 				<div className='col col-md-4'>
 					<Card className="points-card" >
@@ -71,6 +77,9 @@ function App() {
 							</Card.Text>
 							<Card.Text>
 								Use Stock Symbols for getting information.
+							</Card.Text>
+							<Card.Text>
+							(Eg.)  AMZN, MSFT,  AAPL, NVDA, ABNB, SHOP etc..,
 							</Card.Text>
 						</Card.Body>
 					</Card>
