@@ -56,11 +56,11 @@ The task is to build a webpage to display the trade statistics (Open, High, Low,
     e) Support and Documentation
     f) ChatBot support or live chat support
 
-By addressing these aspects, the product can deliver a more reliable, efficient, and user-friendly experience to its vast user base, supporting thousands of users seeking historic stock data on a daily basis.
+    By addressing these aspects, the product can deliver a more reliable, efficient, and user-friendly experience to its vast user base, supporting thousands of        users seeking historic stock data on a daily basis.
 
 2. What new features would you add in this product to increase it's utility for the end user.
 
-    To increase the utility of the product for end users, several new features could be added to enhance their experience and provide more valuable insights. Here are some potential new features:
+    To increase the utility of the product for end users, several new features could be added to enhance their experience and provide more valuable insights. Here      are some potential new features:
 
     a) Enable users to compare the historical performance of multiple stocks side by side on the same chart.
     b) Allow users to create and manage portfolios, tracking their investments and overall portfolio performance.
