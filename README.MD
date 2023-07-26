@@ -42,5 +42,6 @@ The task is to build a webpage to display the trade statistics (Open, High, Low,
 8. In cases where there is no data available for a particular date, the application shows an error message stating: "No data found for the selected date."
 9. Enhanced the UI with user-friendly and attractive styles using Bootstrap.
 10. Added the port number and polygon api key value in the env file.
-11. Added Nodemon to Node.js server.
+11. Added Nodemon to Node.js server for enhancing the development.
+12. Passed the stock name, date and the polygon api key in the url to get the value from the polygon api.
 
